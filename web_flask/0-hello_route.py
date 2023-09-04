@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage/', strict_slashes=False)
 def hello_hbn():
     """ Return Hello HBNB! from 0.0.0.0:5000 """
     return "Hello HBNB!"
